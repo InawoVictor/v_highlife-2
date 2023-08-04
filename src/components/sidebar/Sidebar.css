@@ -1,0 +1,133 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    gap: 2rem;
+    font-family: "karla bold", sans-serif;
+}
+
+.header-1,
+.header-2,
+.header-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.background{
+    background-color: #fafafa;
+}
+.header-1{
+    gap: 1rem;
+    padding: 1rem 0;
+}
+.heading-2{
+    align-self: center;
+    font-family: 'oswald',serif;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: .5rem;
+    
+    border-bottom: 2px solid #000;
+    text-transform: capitalize;
+}
+.header-text{
+    align-self: center;
+}
+.header-text h3 {
+    font-size: 1.8rem;
+}
+.header-text i{
+    color: #10d869;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "karla bold", sans-serif;
+}
+.sidebar-img{
+    width: 100%;
+    height: 40%;
+}
+.sidebar-img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.radio{
+    width: 80%;
+    align-self: center;
+}
+.radio img {
+    width: 100%;
+}
+.header-2{
+    padding: 1rem;
+    gap: 1rem;
+}
+.heading-four{
+    font-size: 1.5rem;
+    font-family: "karla bold", sans-serif;
+    padding: .5rem;
+}
+.content-item i {
+    color: #10d869;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "karla bold", sans-serif;
+    padding: .5rem;
+}
+.all-events{
+    align-self: flex-end;
+    font-size: 1.6rem;
+    color: #00a651;
+    padding: 3rem;
+    font-weight: 700;
+    font-family: inherit;
+}
+.header-3{
+    gap: 1rem;
+}
+.store{
+    border-bottom: none;
+}
+.niara-10{
+    height: 30%;
+}
+.niara-10 img{
+    height: 100%;
+}
+.heading-5{
+    font-size: 1.4rem;
+    font-family: inherit;
+    align-self: center;
+}
+
+@media screen and (max-width: 1115px) {
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        gap: 2rem;
+        font-family: "karla bold", sans-serif;
+    }
+}
+
+@media screen and (max-width: 1095px){
+    .sidebar{
+        width: 20%;
+    }
+}
+@media screen and (max-width: 820px){
+    .sidebar{
+        width: 100%;
+    }
+    .sidebar-img {
+        height: 200px;
+        width: 100%;
+    }
+    .niara-10{
+        height: 150px;
+    }
+}

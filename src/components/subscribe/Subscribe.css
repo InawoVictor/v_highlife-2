@@ -1,0 +1,73 @@
+.subscribe-heading-1{
+    font-family: "PlayfairDisplay Bold", sans-serif;
+    font-size: 3.2rem;
+    font-weight: bolder;
+    color: #070606;
+    letter-spacing: -2px;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+.subscribe-heading-4{
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5rem;
+    color: #565656;
+    letter-spacing: -1px;
+    font-weight: 500;
+}
+.subscribe-input{
+    height: 5rem;
+    width: 40%;
+    display: flex;
+}
+.text{
+    padding: 1rem 2rem;
+    border: 1px solid #ced4da;
+    color: #495057;
+    font-size: 1.2rem;
+    outline: none;
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.text:focus{
+    border: 2.5px solid rgb(113, 195, 195);
+}
+.button{
+    outline: none;
+    border: none;
+    width: 20%;
+    background-color: #333;
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1115px) {
+    .subscribe-input{
+        width: 60%
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .subscribe{
+        width: 50%;
+    }
+    .subscribe-heading-4{
+        font-size: 2.5rem;
+    }
+    .subscribe-heading-4{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .subscribe-input{
+        width: 80%
+    }
+}
